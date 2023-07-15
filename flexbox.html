@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        /*justify content*/
+        .container{
+            border: 2px solid yellow;
+            width: 400px;
+        }
+        .box1{
+            display: flex;
+        }
+        .start{
+            display: flex;
+            justify-content: start;
+        }
+        .end{
+            display: flex;
+            justify-content: end;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+        }
+        .space-between{
+            display: flex;
+            justify-content: space-between;
+        }
+        .space-around{
+            display: flex;
+            justify-content: space-around;
+        }
+        .space-evenly{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .box{
+            border: 2px dashed salmon;
+            width: 50px;
+            height: 50px;
+        }
+        /*align item*/
+        .container1{
+            border: 2px solid yellow;
+            width: 400px;
+            height: 200px;
+        }
+        .align-start{
+            display: flex;
+            align-items: start;
+        }
+        .align-end{
+            display: flex;
+            align-items: end;
+        }
+        .align-center{
+            display: flex;
+            align-items: center;
+        }
+        .wrap{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        
+    
+    </style>
+</head>
+<body>
+    <h1>Flexbox Layout</h1>
+    <div class="container">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br>
+    <h1>display flex</h1>
+    <div class="container box1">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br>
+    <h1>justify-content start</h1>
+    <div class="container start">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br>
+    <h1>justify-content end</h1>
+    <div class="container end">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br>
+    <h1>justify-content center</h1>
+    <div class="container center">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br>
+    <h1>justify-content space-between</h1>
+    <div class="container space-between">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br>
+    <h1>justify-content space-around</h1>
+    <div class="container space-around">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br>
+    <h1>justify-content space-evenly</h1>
+    <div class="container space-evenly">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br>
+    <h1>Flexbox align-item</h1>
+    <div class="container1">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br>
+    <h1>display align-start</h1>
+    <div class="container1 align-start">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br>
+    <h1>justify-content start</h1>
+    <div class="container1 align-end">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br>
+    <h1>justify-content end</h1>
+    <div class="container1 align-center">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br>
+    <h1>Flexbox Layout wrap</h1>
+    <div class="container1 wrap">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-4</div>
+        <div class="box">Box-5</div>
+        <div class="box">Box-6</div>
+        <div class="box">Box-7</div>
+        <div class="box">Box-8</div>
+        <div class="box">Box-9</div>
+    </div>
+</body>
+</html>
