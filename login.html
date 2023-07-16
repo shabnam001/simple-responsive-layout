@@ -11,29 +11,39 @@
             font-weight: 900;
         }
         .login-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
             border: 1px solid salmon;
-            width: 400px;
-            height: 400px;
+            width: 200px;
+            height: 250px;
         }
         .login{
-            width: 350px;
+            width: 200px;
+        }
+        .login input{
             margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    <div>
-       <h1>facebook</h1>
-       <div class="login-container">
+    <h1>facebook</h1>
+    <div class="login-container">
+       <form class="login-form">
          <h3>login to Facebook</h3>
-         <div class="container">
-            <input class="login" type="text" placeholder="enter your email or phone no"><br>
-            <input class="login" type="text" placeholder="Password"><br>
-            <input class="login" type="submit">
+         <div class="login">
+            <input type="email" name="" id="" placeholder="Enter your email address" required>
+            <input type="password" name="" id="" placeholder="Enter your password" required>
+            <input type="submit" value="login">
+            
          </div>
          
         
-        </div>
+        </form>
     </div>  
     
 </body>
